@@ -28,7 +28,7 @@ Lets start by making a new working directory:
 mkdir cifsbuild
 cd cifsbuild
 
-
+{% endhighlight %}
 
 Now we can download and install the prebuilt toolchain:
 
