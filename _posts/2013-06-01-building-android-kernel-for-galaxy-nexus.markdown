@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building the Android kernel for Galaxy Nexus"
-date:   2013-05-28 03:01:19
+date:   2013-06-01 03:01:19
 categories: android development
 tags: gnexus android
 ---
@@ -17,9 +17,10 @@ There are quite a few tutorials online demonstrating how to build a custom kerne
 This not being my intent, it took a bit of trial and error to figure our the right way to build a _specific_ version of the kernel, matching the one shipped with the
 phone exactly. This allows insmoding the kernel modules directly from our build.
 
-This here is a detailed transcript of what needs to be do, derived mainly from http://source.android.com/source/building-kernels.html.
+This here is a detailed transcript of what needs to be do, derived mainly from [source.android.com/source/building-kernels.html](//source.android.com/source/building-kernels.html).
 
-Firstly, we note that the code name for the GSM Galaxy Nexus is "maguro". Thus, its binaries are in device/samsung/tuna and kernel source is in kernel/omap.
+Firstly, we note that the code name for the GSM Galaxy Nexus is "maguro". Thus, its binaries are in [device/samsung/tuna](//android.googlesource.com/device/samsung/tuna)
+and kernel source is in [kernel/omap](//android.googlesource.com/device/samsung/tuna).
 
 Lets start by making a new working directory:
 
