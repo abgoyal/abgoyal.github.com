@@ -1,2 +1,4 @@
 name: High Notes
 pygments: true
+
+theme: jekyll-theme-leap-day
