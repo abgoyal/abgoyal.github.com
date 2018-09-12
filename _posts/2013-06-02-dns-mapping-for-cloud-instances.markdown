@@ -6,7 +6,7 @@ categories: cloud
 tags: cloud dns vps
 ---
 
-#instance-dns
+# instance-dns
 
 Cloud VPSs are everywhere. Amazon EC2, Google CE, DigitalOcean, Upcloud, and the hundreds listed on serverbear and lowendbox.
 Commonly, when the instance is launched, it is assigned an IP address from the providers pool. This IP address is usually 
