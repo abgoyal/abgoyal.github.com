@@ -24,7 +24,8 @@ github_username:  abgoyal
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+#theme: jekyll-theme-leap-day
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
 
